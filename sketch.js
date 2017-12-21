@@ -31,7 +31,7 @@ function dataGet(data) {
 
 function searchGIF() {
   searchTerm = gifField.value();
-  url = `http://api.giphy.com/v1/gifs/search?q=${searchTerm}&api_key=jIAqh37hnPfdiwR4rYXgnBz829oPjub7`;
+  url = `https://api.giphy.com/v1/gifs/search?q=${searchTerm}&api_key=jIAqh37hnPfdiwR4rYXgnBz829oPjub7`;
   loadJSON(url, dataGet);
   print(searchTerm);
 }
