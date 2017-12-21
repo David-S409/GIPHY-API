@@ -3,7 +3,7 @@ let imgURL;
 let img;
 let gifField;
 let gifResults;
-let url1 = 'http://api.giphy.com/v1/gifs/search?q=';
+let url1 = 'https://api.giphy.com/v1/gifs/search?q=';
 let apiKey = '&api_key=jIAqh37hnPfdiwR4rYXgnBz829oPjub7';
 let searchTerm ;
 let url;
