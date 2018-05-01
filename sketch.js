@@ -13,8 +13,8 @@ function setup() {
   submit = createButton('Pick New GIF');
   gifField = createInput('');
 
-  submit.position(20, 500)
-  gifField.position(250, 500);
+  submit.position(100, 500);
+  gifField.position(50, 500);
   submit.mousePressed(searchGIF);
 }
 
